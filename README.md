@@ -12,6 +12,9 @@ This project demonstrates how AWS services can seamlessly integrate using infras
 - The ProcessOrder-Lambda handles message consumption from the queue and logs an associated message ID on CloudWatch logs.
 
 ### Interacting with the API Gateway Service
+
 **Step 1:** Execute `terraform apply` to create the infrastructure.
+
 **Step 2:** Copy the API Gateway URL displayed in the terminal and paste it into the `endpoint` variable within `src/REST-Interface.py`.
+
 **Step 3:** Run the `REST-Interface.py` script to activate the API Gateway.
