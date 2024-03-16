@@ -1,6 +1,6 @@
-# API-Gateway-SQS-Lambda
+# Processing Order with AWS-TerraformIntegration
  
-## The application demonstrates how AWS lambda, SQS, IAM, API Gateway, Cloudwatch services can be leveraged in terraform.
+## The application demonstrates how AWS API-Gateway | AWS SQS | AWS Lambda | AWS Cloudwatch services can be leveraged in Terraform.
 
 ### Project Overview
 This project demonstrates how AWS services can seamlessly integrate using infrastructure as code with Terraform. The objective is to establish a functional system on AWS for processing orders, which includes deploying two Lambda functions, an SQS queue, and an API Gateway for receiving requests.
